@@ -5,7 +5,7 @@ function fetchRandomImage() {
  fetch('https://dog.ceo/api/breeds/image/random')
  .then(response => response.json())
  .then(responseJson => 
- console.log(responseJson).val('#input'));
+ console.log(responseJson));
 }
 
 
